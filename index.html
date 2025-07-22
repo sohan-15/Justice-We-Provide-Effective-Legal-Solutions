@@ -1,82 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justice</title>
+    <link rel="stylesheet" href="./tailwind and  CSS/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
+  <body>
+    <nav class="rounded-with">
+      <div class="Justice-logo">
+        <div><img src="./images/logo.png" alt="" /></div>
 
-<body class="max-w-[1170px] m-auto mt-[100px]">
+        <div><h2 class="justice">Justice</h2></div>
+      </div>
+      <div class="pre-btn">
+        <div class="all-nav-links">
+          <div><a class="text-decoretion" href=""> Home </a></div>
+          <div><a class="text-decoretion" href="">Services</a></div>
+          <div><a class="text-decoretion" href="">Cases</a></div>
+          <div><a class="text-decoretion" href="">Blog</a></div>
+          <div><a class="text-decoretion" href="">Contact</a></div>
+        </div>
+        <div><button class="btn">Free Consultation</button></div>
+      </div>
+    </nav>
+    <main class="abba">
+      <main class="margin">
+        <section class="banner-item">
+          <img class="img" src="./images/banner.png" alt="" />
+        </section>
+      </main>
 
+      <main class="margin">
+        <section class="working-in-picture">
+          <div class="middle-part-in-banner">
+            <h1 class="headline">
+              We Provide Effective <br />
+              Legal Solutions
+            </h1>
+            <h3 class="pragraph">
+              There are many variations of passages <br />
+              of Lorem Ipsum available, but the majority have <br />
+              suffered alteration in some form, by injected humour.
+            </h3>
 
+            <div class="search-potion-felx">
+              <div>
+                <input
+                  class="text"
+                  type="text"
+                  placeholder=" Write somthing..."
+                  id=""
+                />
+              </div>
 
-    <header>
-        <nav class="max-w-[1170px] m-auto">
-            <div class="flex items-center justify-between">
-
-                <div>
-                    <img src="./images/logo.png" class="" alt="">
-                </div>
-
-                <div>
-                    <h2 class="-ml-77 text-base font-medium text-[40px] gap-[50px]"><span> <b>Justice</b></span></h2>
-                </div>
-                <div class="flex -ml-[170px] gap-4">
-                    <div><a href="">Home</a></div>
-                    <div><a href="">Services</a></div>
-                    <div><a href="">Cases</a></div>
-                    <div><a href="">Blog</a></div>
-                    <div><a href="">Contact Us</a></div>
-                </div>
-                <div><button
-                        class="text-[30px] text-amber-50 bg-[rgba(182,140,90,1)] p-3 rounded-[10px]  hover:bg-blue-700 transition-all"><b>Free
-                            Consultion</b></button></div>
-
+              <div>
+                <span><button class="btns">Search</button></span>
+              </div>
             </div>
+          </div>
+        </section>
+      </main>
+    </main>
 
-            <div class="text-center max-w-[1170px] m-auto ">
-                <img class="m-[50px] max-w-[1170px] m-auto mt-[60px]" src="./images/banner.png" alt="">
-            </div>
+    <section class="headline-middle margin">
+      <h2 class="headline-fontsize">The Legal Practice Area</h2>
+      <p>
+        There are many variations of passages of Lorem Ipsum available, but the
+        majority have <br />suffered alteration in some form, by injected
+        humour.
+      </p>
+    </section>
 
-            <div class="-mt-[480px] text-amber-50">
+    <main class="margin cards">
+      <section class="margin">
+        <div class="card">
+          <div><img class="image" src="./images/business.png" alt="" /></div>
 
+          <h3 class="h">Business Law</h3>
+          <p class="p">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alterationbr in some form, by injected
+            humour.
+          </p>
+          <div style="text-align: center">
+            <button class="arrow-rights">
+              <i class="fa-solid fa-arrow-right arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="margin">
+        <div class="card">
+          <div><img class="image" src="./images/criminal.png" alt="" /></div>
 
-                <div>
-                    <div class="flex  justify-center items-center  ">
-                        <h2 class="font-bold text-[55px]">We Provide Effective <br> <span class="ml-[50px]">Legal
-                                Solutions</span></h2>
-                    </div>
-                    <p class=" mt-[10px] mb-[20px] justify-center flex items-center  text-center bg-gray-100">There are
-                        many variations of passages of Lorem Ipsum
-                        available, but the majority <br> have suffered
-                        alteration in some form, by injected humour.</p>
-                </div>
+          <h3 class="h">Criminal Law</h3>
+          <p class="p">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alterationbr in some form, by injected
+            humour.
+          </p>
+          <div style="text-align: center">
+            <button class="arrow-rights">
+              <i class="fa-solid fa-arrow-right arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="margin">
+        <div class="card">
+          <div><img class="image" src="./images/child.png" alt="" /></div>
 
-                <!-- Input box with border -->
-                <div class="flex items-center max-w-md mx-auto ">
-                    <input type="text" placeholder="Search your Services..."
-                        class="flex-grow border bg-amber-50 border-gray-400 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500 placeholder-gray-400" />
+          <h3 class="h">Child Support</h3>
+          <p class="p">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alterationbr in some form, by injected
+            humour.
+          </p>
+          <div style="text-align: center">
+            <button class="arrow-rights">
+              <i class="fa-solid fa-arrow-right arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="margin">
+        <div class="card">
+          <div><img class="image" src="./images/education.png" alt="" /></div>
 
-                    <!-- Little gap between input and button -->
-                    <div class="w-2"></div> <!-- approx 8px gap -->
+          <h3 class="h">Education Law</h3>
+          <p class="p">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alterationbr in some form, by injected
+            humour.
+          </p>
+          <div style="text-align: center">
+            <button class="arrow-rights">
+              <i class="fa-solid fa-arrow-right arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="margin">
+        <div class="card">
+          <div><img class="image" src="./images/divorce.png" alt="" /></div>
 
-                    <!-- Search button -->
-                    <button
-                        class="bg-[rgba(182,140,90,1)] text-white px-5 py-2 rounded-md hover:bg-blue-700 transition-all">
-                        Search
-                    </button>
-                </div>
-            </div>
-        </nav>
-    </header>
+          <h3 class="h">Divorce Law</h3>
+          <p class="p">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alterationbr in some form, by injected
+            humour.
+          </p>
+          <div style="text-align: center">
+            <button class="arrow-rights">
+              <i class="fa-solid fa-arrow-right arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="margin">
+        <div class="card">
+          <div><img class="image" src="./images/tax.png" alt="" /></div>
 
-
-
-
-
-
-</body>
-
+          <h3 class="h">Tax Law</h3>
+          <p class="p">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alterationbr in some form, by injected
+            humour.
+          </p>
+          <div style="text-align: center">
+            <button class="arrow-rights">
+              <i class="fa-solid fa-arrow-right arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

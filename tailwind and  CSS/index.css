@@ -1,0 +1,254 @@
+.rounded-with {
+  /* border: 1px solid rgb(71, 74, 255); */
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: baseline space-evenly;
+  text-decoration: none;
+}
+.Justice-logo {
+  /* border: 1px solid tomato; */
+  margin-top: 70px;
+  display: flex;
+  text-align: center;
+}
+.justice {
+  /* border: 1px solid tomato; */
+  margin-left: -100px;
+  font-weight: 600;
+
+  text-align: center;
+}
+:hover.text-decoretion {
+  color: white;
+  transition: 0.123s;
+  background-color: rgba(182, 140, 90, 1);
+}
+.text-decoretion {
+  text-decoration: none;s
+}
+.all-nav-links {
+  text-decoration: none;
+  justify-content: center;
+  margin-right: 320px;
+  display: flex;
+  font-size: 12px;
+  gap: 30px;
+  /* max-width: 1170px; */
+  /* margin: 0 auto; */
+  /* margin-top: 70px; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* border: 1px solid tomato; */
+  /* max-width: 1170px;
+  margin: 0 auto; */
+}
+.pre-btn {
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  /* justify-content: space-between; */
+  margin-top: 70px;
+  /* justify-content: center; */
+  /* border: 1px solid rgb(105, 71, 255); */
+}
+:hover.btn {
+  background-color: blue;
+  transition: 1s;
+  color: white;
+  
+}
+.btn {
+  font-weight: 700;
+  font-size: 12px;
+  background-color: rgba(182, 140, 90, 1);
+  color: white;
+  padding: 10px 25px 10px 25px;
+}
+:hover.btns{
+  background-color: blue;
+  color: white;
+  transition: 1s;
+}
+.btns{ font-weight: 700;
+  font-size: 12px;
+  background-color: rgba(182, 140, 90, 1);
+  color: white;
+  padding: 10px 25px 10px 25px;}
+.margin
+{
+  padding-top: 40px;
+   max-width: 1170px;
+  margin: 0 auto;
+}
+.banner-item
+{
+
+}
+.img
+{
+width: 100%;
+}
+.working-in-picture
+{
+  margin-top: -500px;
+  color: white;
+  text-align: center;
+}
+.middle-part-in-banner
+{
+  justify-content: center;
+}
+.headline
+{
+  font-weight: 800;
+font-size: 70px;
+}
+.pragraph
+{
+  margin-top: -40px;
+font-size: 18px;
+}
+.text{
+ font-size: 18px;
+}
+.search-potion-felx
+{
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* border: 3px solid tomato; */
+}
+
+.headline-middle
+{
+text-align: center;
+}
+.headline-fontsize
+{
+  font-size: 35px;
+}
+.arrow-rights{
+  background-color: rgba(182, 140, 90, 1);
+ border-radius: 50px;
+ padding-top: 5px;
+  background-color: rgba(182, 140, 90, 1);}
+  
+.arrow-right
+{
+    font-size: 20px;
+  color: white;
+  background-color: rgba(182, 140, 90, 1);
+}
+.image{
+
+  margin-left: 100px;
+  /* border: 1px solid blue; */
+  text-align: center;
+}
+.h{
+ text-align: center;
+   /* align-items: center; */
+}
+.p{
+  margin-top: -10px;
+   /* border: 1px solid greenyellow;  */
+   width: 250px;
+   text-align: center;
+ 
+}
+.card
+{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+  /* border: 1px solid tomato; */
+  max-width: 258px;
+}
+.cards
+{
+/* border: 2px solid tomato; */
+align-items: center;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 576px) {
+   .rounded-with{
+    flex-direction: column;
+   
+  }
+  .pre-btn{
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    
+  }
+  .all-nav-links{ 
+    flex-direction:column;
+    font-size: 40x;
+    gap: 10px;
+    padding-left: 280px;
+    padding-bottom: 30px;
+
+    
+  }
+  .working-in-picture{
+
+    margin-top: -130px;
+
+  }
+  .headline{
+margin-top: -200px;
+    font-size: 25px;
+  }
+  .pragraph{
+    padding-top: 25px;
+    font-size: 10px;
+  }
+  .text{
+ font-size: 14px;
+}
+:hover.btns{
+  background-color: blue;
+  color: white;
+}
+.btns{
+  font-size: 10px;
+   padding: 5px 10px 5px 10px;
+
+}
+.search-potion-felx{
+  margin-bottom: 40px;
+}
+.abba{
+  
+}
+  .img{
+
+    }
+ .headline-fontsize{
+  flex-direction: column;
+  font-size: 15px;
+  
+ }
+ .lekha{
+  font-size: 5px;
+   flex-direction: column;
+ }
+.headline-middle margin{
+  flex-direction: column;
+
+
+ }
+ .cards{
+  grid-template-columns: repeat(1, 1fr);
+   flex-direction: column;
+ }
+}
+ 
+  
+  
+
+
